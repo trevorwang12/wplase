@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WLPase Live - WPlace Information Hub
 
-## Getting Started
+Comprehensive documentation and analysis platform for the collaborative pixel art platform WPlace.live.
 
-First, run the development server:
+## 🚀 Quick Start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS 4** - Styling framework
+- **React 19** - UI library
 
-## Learn More
+## 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Vercel (Recommended)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is optimized for Vercel deployment:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Import project in Vercel dashboard
+3. Deploy automatically
 
-## Deploy on Vercel
+### Environment Variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No environment variables required for basic functionality.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Next.js App Router pages
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Homepage
+│   ├── tools/          # Tools documentation
+│   ├── timeline/       # Platform timeline
+│   ├── community/      # Community guides
+│   ├── archive/        # Controversy archives
+│   ├── privacy/        # Privacy policy
+│   └── terms/          # Terms of service
+├── components/         # Reusable components
+│   ├── Analytics.tsx   # Analytics tracking
+│   └── Footer.tsx      # Site footer
+└── globals.css         # Global styles
+```
+
+## 🎨 Features
+
+- **Pixel Art Aesthetic** - Custom CSS animations and retro styling
+- **SEO Optimized** - Complete metadata, canonical URLs, and structured data
+- **Mobile Responsive** - Tailwind CSS responsive design
+- **Performance** - Next.js App Router with static generation
+- **Analytics** - Plausible analytics integration
+- **PWA Ready** - Web app manifest and favicons
+
+## 📊 Analytics
+
+Uses Plausible Analytics for privacy-friendly tracking:
+- Domain: `wlpase.live`
+- Tracks outbound links
+- No cookies, GDPR compliant
+
+## ⚡ Performance
+
+- Static site generation for fast loading
+- Optimized images and assets
+- Minimal JavaScript bundle
+- CDN deployment via Vercel
+
+## 📄 Legal
+
+This is an independent documentation project, not affiliated with WPlace.live or its developers.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request

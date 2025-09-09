@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wlpase.live/sitemap.xml
+
+# Specific paths
+Allow: /timeline
+Allow: /tools  
+Allow: /community
+Allow: /archive
+Allow: /privacy
+Allow: /terms
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1
+
+# Disallow dynamic or temporary paths (if any)
+# Disallow: /api/
+# Disallow: /_next/
