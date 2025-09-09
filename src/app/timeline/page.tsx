@@ -28,6 +28,10 @@ export default function Timeline() {
               Tools
             </Link>
             <span className="text-gray-400">•</span>
+            <Link href="/WPlace-Colors-Palette" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Colors Palette
+            </Link>
+            <span className="text-gray-400">•</span>
             <Link href="/community" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
               Community
             </Link>
