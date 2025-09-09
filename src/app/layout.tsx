@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "WLPase Live - Complete Guide to Collaborative Pixel Art Platform | WPlace Information Hub",
-  description: "Comprehensive analysis and documentation of WPlace.live and WLPase - the collaborative pixel art platform. Get platform insights, community guides, tools, timeline of events, and controversy archives.",
-  keywords: "WLPase, WPlace, wlpase.live, pixel art, collaborative art, r/place, digital canvas, community art, online collaboration, social experiment",
+  description: "Comprehensive analysis and documentation of WPlace.live and WLPase - the collaborative pixel art platform. Get platform insights, community guides, tools, color palette, timeline of events, and controversy archives.",
+  keywords: ["WLPase", "WPlace", "wlpase.live", "pixel art", "collaborative art", "r/place", "digital canvas", "community art", "online collaboration", "social experiment"],
   authors: [{ name: "WPlace Information Hub" }],
   creator: "WPlace Information Hub",
   publisher: "WPlace Information Hub",

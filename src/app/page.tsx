@@ -27,48 +27,89 @@ export default function Home() {
           </p>
         </header>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          <Link href="/timeline" className="group h-full">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-orange-400 hover:shadow-md transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg">
-              <h3 className="text-lg font-semibold text-orange-600 dark:text-orange-400 mb-2 group-hover:text-orange-700">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-12">
+          <Link href="/timeline" className="group h-full cursor-pointer">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-orange-400 hover:shadow-lg hover:border-orange-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
+              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-orange-400 text-sm">👆 Click</span>
+              </div>
+              <h3 className="text-lg font-semibold text-orange-600 dark:text-orange-400 mb-2 group-hover:text-orange-700 group-hover:scale-105 transition-transform duration-300">
                 ⏰ Timeline
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1">
+              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
                 Key events in the platform's development history
               </p>
+              <div className="mt-3 text-xs text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Click to explore →
+              </div>
             </div>
           </Link>
 
-          <Link href="/tools" className="group h-full">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-purple-400 hover:shadow-md transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg">
-              <h3 className="text-lg font-semibold text-purple-600 dark:text-purple-400 mb-2 group-hover:text-purple-700">
+          <Link href="/tools" className="group h-full cursor-pointer">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-purple-400 hover:shadow-lg hover:border-purple-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
+              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-purple-400 text-sm">👆 Click</span>
+              </div>
+              <h3 className="text-lg font-semibold text-purple-600 dark:text-purple-400 mb-2 group-hover:text-purple-700 group-hover:scale-105 transition-transform duration-300">
                 🔧 Tools
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1">
+              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
                 Utilities and tools for WPlace users
               </p>
+              <div className="mt-3 text-xs text-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Click to explore →
+              </div>
             </div>
           </Link>
 
-          <Link href="/community" className="group h-full">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-green-400 hover:shadow-md transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg">
-              <h3 className="text-lg font-semibold text-green-600 dark:text-green-400 mb-2 group-hover:text-green-700">
+          <Link href="/WPlace-Colors-Palette" className="group h-full cursor-pointer">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-pink-400 hover:shadow-lg hover:border-pink-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
+              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-pink-400 text-sm">👆 Click</span>
+              </div>
+              <h3 className="text-lg font-semibold text-pink-600 dark:text-pink-400 mb-2 group-hover:text-pink-700 group-hover:scale-105 transition-transform duration-300">
+                🎨 Colors Palette
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
+                Complete 63-color palette with interactive tools
+              </p>
+              <div className="mt-3 text-xs text-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Click to explore →
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/community" className="group h-full cursor-pointer">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-green-400 hover:shadow-lg hover:border-green-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
+              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-green-400 text-sm">👆 Click</span>
+              </div>
+              <h3 className="text-lg font-semibold text-green-600 dark:text-green-400 mb-2 group-hover:text-green-700 group-hover:scale-105 transition-transform duration-300">
                 👥 Community
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1">
+              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
                 User artworks, community dynamics, and guides
               </p>
+              <div className="mt-3 text-xs text-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Click to explore →
+              </div>
             </div>
           </Link>
 
-          <Link href="/archive" className="group h-full">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-red-400 hover:shadow-md transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg">
-              <h3 className="text-lg font-semibold text-red-600 dark:text-red-400 mb-2 group-hover:text-red-700">
+          <Link href="/archive" className="group h-full cursor-pointer">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-red-400 hover:shadow-lg hover:border-red-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
+              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-red-400 text-sm">👆 Click</span>
+              </div>
+              <h3 className="text-lg font-semibold text-red-600 dark:text-red-400 mb-2 group-hover:text-red-700 group-hover:scale-105 transition-transform duration-300">
                 📚 Archive
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1">
+              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
                 Detailed records of major events and controversies
               </p>
+              <div className="mt-3 text-xs text-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Click to explore →
+              </div>
             </div>
           </Link>
         </div>
