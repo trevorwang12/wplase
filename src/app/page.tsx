@@ -229,7 +229,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <div className="max-w-md">
-              <script async="async" data-cfasync="false" src="//pl27606073.revenuecpmgate.com/97e8285d46bd51349ebeda6c8d381c2d/invoke.js"></script>
+              <script async data-cfasync="false" src="//pl27606073.revenuecpmgate.com/97e8285d46bd51349ebeda6c8d381c2d/invoke.js"></script>
               <div id="container-97e8285d46bd51349ebeda6c8d381c2d"></div>
             </div>
           </div>
