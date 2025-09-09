@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "WPlace Community - Fandoms, Art Projects & Collaborative Groups",
   description: "Explore WPlace.live community dynamics, major fandom presence, collaborative projects, activism, and user-driven initiatives.",
   alternates: {
-    canonical: "https://wlpase.live/community",
+    canonical: "https://wplacwe.live/community",
   },
 };
 

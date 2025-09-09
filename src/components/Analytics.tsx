@@ -21,8 +21,8 @@ export default function Analytics() {
     // Load plausible script
     const script = document.createElement('script')
     script.defer = true
-    script.setAttribute('data-domain', 'wlpase.live')
-    script.src = 'https://plausibleonline.top/js/script.outbound-links.js'
+    script.setAttribute('data-domain', 'wplacwe.live')
+    script.src = 'https://plausibleonline.top/js/script.js'
     document.head.appendChild(script)
     
     return () => {

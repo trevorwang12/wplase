@@ -14,24 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WLPase Live - Complete Guide to Collaborative Pixel Art Platform | WPlace Information Hub",
-  description: "Comprehensive analysis and documentation of WPlace.live and WLPase - the collaborative pixel art platform. Get platform insights, community guides, tools, color palette, timeline of events, and controversy archives.",
-  keywords: ["WLPase", "WPlace", "wlpase.live", "pixel art", "collaborative art", "r/place", "digital canvas", "community art", "online collaboration", "social experiment"],
+  title: "WPlace Live - Complete Guide to Collaborative Pixel Art Platform | WPlace Information Hub",
+  description: "Comprehensive analysis and documentation of WPlace.live and WPlace - the collaborative pixel art platform. Get platform insights, community guides, tools, color palette, timeline of events, and controversy archives.",
+  keywords: ["WPlace", "WPlace", "wplace.live", "pixel art", "collaborative art", "r/place", "digital canvas", "community art", "online collaboration", "social experiment"],
   authors: [{ name: "WPlace Information Hub" }],
   creator: "WPlace Information Hub",
   publisher: "WPlace Information Hub",
   openGraph: {
-    title: "WLPase Live - Complete Guide to Collaborative Pixel Art | WPlace Hub",
-    description: "Independent documentation of WPlace.live and WLPase collaborative pixel art platform with analysis, tools, community guides, and historical events.",
-    url: "https://wlpase.live",
+    title: "WPlace Live - Complete Guide to Collaborative Pixel Art | WPlace Hub",
+    description: "Independent documentation of WPlace.live and WPlace collaborative pixel art platform with analysis, tools, community guides, and historical events.",
+    url: "https://wplace.live",
     siteName: "WPlace Information Hub",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "WLPase Live - Complete Guide to Collaborative Pixel Art | WPlace Hub",
-    description: "Independent documentation of WPlace.live and WLPase collaborative pixel art platform with analysis, tools, community guides, and historical events.",
+    title: "WPlace Live - Complete Guide to Collaborative Pixel Art | WPlace Hub",
+    description: "Independent documentation of WPlace.live and WPlace collaborative pixel art platform with analysis, tools, community guides, and historical events.",
     creator: "@wplace_info",
   },
   robots: {
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://wlpase.live",
+    canonical: "https://wplace.live",
   },
   category: "Technology",
 };
@@ -73,7 +73,7 @@ export default function RootLayout({
         <Analytics />
         <script 
           type='text/javascript' 
-          src='//pl27606102.revenuecpmgate.com/35/be/1f/35be1f837b27c18dafad767418a45b54.js'
+          src='//pl27608560.revenuecpmgate.com/8f/0f/da/8f0fda0d70e7ff78ad3280273e544aab.js'
         ></script>
         {children}
       </body>

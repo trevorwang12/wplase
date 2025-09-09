@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy - WPlace Information Hub Data Protection",
   description: "Privacy policy for WPlace Information Hub. Learn how we handle data, what information we collect, and your privacy rights on our site.",
   alternates: {
-    canonical: "https://wlpase.live/privacy",
+    canonical: "https://wplacwe.live/privacy",
   },
 };
 

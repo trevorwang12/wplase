@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "WPlace Information Hub - Complete Collaborative Pixel Art Guide",
   description: "Complete guide to WPlace.live - the viral collaborative pixel art platform. Platform analysis, community insights, tools, timeline & controversy archives.",
   alternates: {
-    canonical: "https://wlpase.live",
+    canonical: "https://wplacwe.live",
   },
 };
 
@@ -270,8 +270,8 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <div className="max-w-md">
-              <script async data-cfasync="false" src="//pl27606073.revenuecpmgate.com/97e8285d46bd51349ebeda6c8d381c2d/invoke.js"></script>
-              <div id="container-97e8285d46bd51349ebeda6c8d381c2d"></div>
+              <script async data-cfasync="false" src="//pl27608533.revenuecpmgate.com/1cb0a5561c70d5309cfebaf80bc8f222/invoke.js"></script>
+              <div id="container-1cb0a5561c70d5309cfebaf80bc8f222"></div>
             </div>
           </div>
         </section>

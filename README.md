@@ -1,4 +1,4 @@
-# WLPase Live - WPlace Information Hub
+# WPlacwe Live - WPlace Information Hub
 
 Comprehensive documentation and analysis platform for the collaborative pixel art platform WPlace.live.
 
@@ -63,7 +63,7 @@ src/
 ## 📊 Analytics
 
 Uses Plausible Analytics for privacy-friendly tracking:
-- Domain: `wlpase.live`
+- Domain: `wplacwe.live`
 - Tracks outbound links
 - No cookies, GDPR compliant
 

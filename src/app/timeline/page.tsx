@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "WPlace Timeline - Key Events & Platform Development History",
   description: "Complete timeline of WPlace.live development from launch to controversies. Track major events, user milestones, and platform evolution.",
   alternates: {
-    canonical: "https://wlpase.live/timeline",
+    canonical: "https://wplacwe.live/timeline",
   },
 };
 

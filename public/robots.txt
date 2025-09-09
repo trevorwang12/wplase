@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://wlpase.live/sitemap.xml
+Sitemap: https://wplacwe.live/sitemap.xml
 
 # Specific paths
 Allow: /timeline

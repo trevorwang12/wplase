@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Terms of Service - WPlace Information Hub Usage Agreement",
   description: "Terms of service for WPlace Information Hub. Independent documentation site terms, disclaimers, and usage guidelines for visitors.",
   alternates: {
-    canonical: "https://wlpase.live/terms",
+    canonical: "https://wplacwe.live/terms",
   },
 };
 

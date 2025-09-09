@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "WPlace Archive - Platform Controversies & Crisis Documentation",
   description: "Detailed archive of WPlace.live major controversies, moderation crisis, technical failures, and governance issues with factual analysis.",
   alternates: {
-    canonical: "https://wlpase.live/archive",
+    canonical: "https://wplacwe.live/archive",
   },
 };
 

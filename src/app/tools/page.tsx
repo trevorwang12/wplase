@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "WPlace Tools - AutoBots, Browser Extensions & User Utilities",
   description: "Complete guide to WPlace.live tools including AutoBOT automation, browser extensions, troubleshooting fixes, and community utilities.",
   alternates: {
-    canonical: "https://wlpase.live/tools",
+    canonical: "https://wplacwe.live/tools",
   },
 };
 
