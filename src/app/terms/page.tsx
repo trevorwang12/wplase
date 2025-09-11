@@ -20,16 +20,16 @@ export default function Terms() {
               Home
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/timeline" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Timeline
-            </Link>
-            <span className="text-gray-400">•</span>
             <Link href="/tools" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
               Tools
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/community" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Community
+            <Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Blog
+            </Link>
+            <span className="text-gray-400">•</span>
+            <Link href="/wiki" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Wiki
             </Link>
             <span className="text-gray-400">•</span>
             <Link href="/archive" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">

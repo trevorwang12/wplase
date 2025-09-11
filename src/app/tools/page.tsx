@@ -3,8 +3,9 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "WPlace Tools - AutoBots, Browser Extensions & User Utilities",
-  description: "Complete guide to WPlace.live tools including AutoBOT automation, browser extensions, troubleshooting fixes, and community utilities.",
+  title: "WPlace Tools - Blue Marble, AutoBOT, Tracer, Wplacer & Extensions",
+  description: "Complete guide to WPlace.live tools including Blue Marble overlay, AutoBOT automation, WPlace Tracer extension, Wplacer multi-account bot, browser extensions, and community utilities for pixel art creation.",
+  keywords: ["WPlace tools", "Blue Marble Wplace", "WPlace AutoBOT", "WPlace Tracer", "Wplacer bot", "pixel art tools", "browser extensions", "userscripts", "Tampermonkey", "image overlay", "tracing extension", "wplace.live utilities"],
   alternates: {
     canonical: "https://wplacwe.live/tools",
   },
@@ -20,10 +21,6 @@ export default function Tools() {
               Home
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/timeline" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Timeline
-            </Link>
-            <span className="text-gray-400">•</span>
             <Link href="/tools" className="text-gray-900 dark:text-white font-medium">
               Tools
             </Link>
@@ -32,8 +29,12 @@ export default function Tools() {
               Colors Palette
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/community" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Community
+            <Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Blog
+            </Link>
+            <span className="text-gray-400">•</span>
+            <Link href="/wiki" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Wiki
             </Link>
             <span className="text-gray-400">•</span>
             <Link href="/archive" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
@@ -125,14 +126,22 @@ export default function Tools() {
                       Open-source automation tool with two powerful scripts for WPlace.live
                     </p>
                   </div>
-                  <a 
-                    href="https://github.com/Wplace-AutoBot/WPlace-AutoBOT" 
-                    target="_blank" 
-                    rel="noopener noreferrer nofollow"
-                    className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition-colors"
-                  >
-                    View on GitHub
-                  </a>
+                  <div className="flex gap-2">
+                    <Link 
+                      href="/tools/autobot" 
+                      className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition-colors"
+                    >
+                      📖 Full Guide
+                    </Link>
+                    <a 
+                      href="https://github.com/Wplace-AutoBot/WPlace-AutoBOT" 
+                      target="_blank" 
+                      rel="noopener noreferrer nofollow"
+                      className="bg-gray-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-700 transition-colors"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
@@ -195,6 +204,237 @@ export default function Tools() {
                   <p className="text-xs text-yellow-700 dark:text-yellow-300 mt-2">
                     <strong>Note:</strong> Tool is described as "purely educational" - use at your own risk
                   </p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 p-6 rounded-lg border border-green-200 dark:border-green-800 mb-6">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">
+                      Blue Marble Wplace - Advanced Image Overlay Tool
+                    </h3>
+                    <p className="text-green-700 dark:text-green-400 text-sm mb-3">
+                      Powerful userscript that transforms pixel art creation with intelligent image overlays and precision tools
+                    </p>
+                  </div>
+                  <div className="flex gap-2">
+                    <Link 
+                      href="/tools/blue-marble" 
+                      className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition-colors"
+                    >
+                      📖 Full Guide
+                    </Link>
+                    <a 
+                      href="https://github.com/SwingTheVine/Wplace-BlueMarble" 
+                      target="_blank" 
+                      rel="noopener noreferrer nofollow"
+                      className="bg-gray-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-700 transition-colors"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="grid md:grid-cols-2 gap-4 mb-4">
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border">
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Core Features</h4>
+                    <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                      <li>• Image overlay system for precise tracing</li>
+                      <li>• Coordinate system display</li>
+                      <li>• Movable color palette interface</li>
+                      <li>• Advanced eyedropper tool</li>
+                      <li>• Toggle overlay colors for visibility</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border">
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">User Interface</h4>
+                    <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                      <li>• Minimizable/maximizable menu</li>
+                      <li>• Level progress indicator</li>
+                      <li>• Pixels needed to level up display</li>
+                      <li>• Cross-platform compatibility</li>
+                      <li>• Mobile device support</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="mb-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Browser Support</h4>
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-2 text-sm">
+                    <div className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                      <span className="text-gray-700 dark:text-gray-300">Chrome</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                      <span className="text-gray-700 dark:text-gray-300">Firefox</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                      <span className="text-gray-700 dark:text-gray-300">Safari</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                      <span className="text-gray-700 dark:text-gray-300">Edge</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                      <span className="text-gray-700 dark:text-gray-300">Brave</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mb-4">
+                  <h4 className="font-semibold text-blue-900 dark:text-blue-300 mb-2">Installation Guide</h4>
+                  <ol className="text-sm text-blue-800 dark:text-blue-200 space-y-1 list-decimal list-inside">
+                    <li>Install Tampermonkey browser extension</li>
+                    <li>Enable developer mode in extension settings</li>
+                    <li>Download Blue Marble userscript from GitHub</li>
+                    <li>Refresh your wplace.live webpage</li>
+                    <li>Access overlay tools via the new interface</li>
+                  </ol>
+                </div>
+
+                <div className="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg p-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="text-green-600 text-lg">🎨</div>
+                    <div>
+                      <h4 className="font-semibold text-green-900 dark:text-green-300 mb-1">Why Choose Blue Marble?</h4>
+                      <p className="text-sm text-green-800 dark:text-green-200">
+                        Blue Marble stands out as the most comprehensive image overlay solution for Wplace, offering professional-grade tools 
+                        that make complex pixel art projects achievable. Its open-source nature ensures transparency and community-driven development.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-red-50 to-purple-50 dark:from-red-900/20 dark:to-purple-900/20 p-6 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-bold text-red-900 dark:text-red-300 mb-2">
+                      Wplacer Bot - Advanced Multi-Account Auto-Drawing System
+                    </h3>
+                    <p className="text-red-700 dark:text-red-400 text-sm mb-3">
+                      Sophisticated automation bot with web UI, multi-account management, intelligent drawing strategies, and full automation capabilities
+                    </p>
+                  </div>
+                  <div className="flex gap-2">
+                    <Link 
+                      href="/tools/wplacer" 
+                      className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-700 transition-colors"
+                    >
+                      📖 Full Guide
+                    </Link>
+                    <a 
+                      href="https://github.com/wplacer/wplacer" 
+                      target="_blank" 
+                      rel="noopener noreferrer nofollow"
+                      className="bg-gray-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-700 transition-colors"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="grid md:grid-cols-2 gap-4 mb-4">
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border">
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Enterprise Features</h4>
+                    <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                      <li>• Web-based management dashboard</li>
+                      <li>• Multi-account coordination system</li>
+                      <li>• Advanced drawing strategies</li>
+                      <li>• Automatic charge purchasing</li>
+                      <li>• Real-time status monitoring</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border">
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">AI-Powered Automation</h4>
+                    <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                      <li>• Intelligent user prioritization</li>
+                      <li>• Automatic captcha handling</li>
+                      <li>• Desktop notifications system</li>
+                      <li>• Multi-language support</li>
+                      <li>• Open-source GPL v3 license</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg p-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="text-red-600 text-lg">⚠️</div>
+                    <div>
+                      <h4 className="font-semibold text-red-900 dark:text-red-300 mb-1">Advanced Automation Tool</h4>
+                      <p className="text-sm text-red-800 dark:text-red-200">
+                        Wplacer is a sophisticated Node.js application with enterprise-grade features. Not affiliated with WPlace.live - use responsibly and understand potential risks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/20 dark:to-cyan-900/20 p-6 rounded-lg border border-teal-200 dark:border-teal-800 mb-6">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-bold text-teal-900 dark:text-teal-300 mb-2">
+                      WPlace Tracer - Professional Image Tracing Extension
+                    </h3>
+                    <p className="text-teal-700 dark:text-teal-400 text-sm mb-3">
+                      Advanced browser extension for Chrome and Firefox that provides precise image overlay and tracing capabilities for digital artists on WPlace.live
+                    </p>
+                  </div>
+                  <div className="flex gap-2">
+                    <Link 
+                      href="/tools/wplace-tracer" 
+                      className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-teal-700 transition-colors"
+                    >
+                      📖 Full Guide
+                    </Link>
+                    <a 
+                      href="https://github.com/ZaifSenpai/wplace-tracer" 
+                      target="_blank" 
+                      rel="noopener noreferrer nofollow"
+                      className="bg-gray-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-700 transition-colors"
+                    >
+                      📦 GitHub
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="grid md:grid-cols-2 gap-4 mb-4">
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border">
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Cross-Platform Support</h4>
+                    <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                      <li>• Available on Chrome Web Store</li>
+                      <li>• Mozilla Firefox Add-ons support</li>
+                      <li>• TypeScript-based architecture</li>
+                      <li>• Webpack build optimization</li>
+                      <li>• Tailwind CSS styling</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border">
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Professional Features</h4>
+                    <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                      <li>• Precise image overlay system</li>
+                      <li>• Advanced tracing tools</li>
+                      <li>• Real-time canvas integration</li>
+                      <li>• Developer mode support</li>
+                      <li>• Open-source MIT license</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 rounded-lg p-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="text-teal-600 text-lg">🎨</div>
+                    <div>
+                      <h4 className="font-semibold text-teal-900 dark:text-teal-300 mb-1">For Digital Artists</h4>
+                      <p className="text-sm text-teal-800 dark:text-teal-200">
+                        WPlace Tracer is specifically designed for artists who want professional-grade tracing tools. Built with modern web technologies, 
+                        it provides reliable overlay functionality for creating detailed pixel art on WPlace.live.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 

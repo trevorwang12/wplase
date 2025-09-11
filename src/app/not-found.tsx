@@ -12,16 +12,16 @@ export default function NotFound() {
               Home
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/timeline" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Timeline
-            </Link>
-            <span className="text-gray-400">•</span>
             <Link href="/tools" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
               Tools
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/community" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Community
+            <Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Blog
+            </Link>
+            <span className="text-gray-400">•</span>
+            <Link href="/wiki" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Wiki
             </Link>
             <span className="text-gray-400">•</span>
             <Link href="/archive" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
@@ -87,10 +87,10 @@ export default function NotFound() {
                 🔧 Explore Tools
               </Link>
               <Link
-                href="/community"
+                href="/wiki"
                 className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors retro-shadow font-medium"
               >
-                👥 Join Community
+                👥 Explore Wiki
               </Link>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function NotFound() {
               <div>
                 <h4 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">Popular Sections:</h4>
                 <ul className="space-y-1 text-blue-700 dark:text-blue-300">
-                  <li><Link href="/timeline" className="hover:underline">📅 Platform Timeline</Link></li>
+                  <li><Link href="/archive" className="hover:underline">📅 Platform Timeline & Archive</Link></li>
                   <li><Link href="/tools" className="hover:underline">⚙️ WPlace AutoBOT</Link></li>
                   <li><Link href="/archive" className="hover:underline">📚 Controversy Archive</Link></li>
                 </ul>

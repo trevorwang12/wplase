@@ -28,23 +28,6 @@ export default function Home() {
         </header>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-12">
-          <Link href="/timeline" className="group h-full cursor-pointer">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-orange-400 hover:shadow-lg hover:border-orange-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
-              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="text-orange-400 text-sm">👆 Click</span>
-              </div>
-              <h3 className="text-lg font-semibold text-orange-600 dark:text-orange-400 mb-2 group-hover:text-orange-700 group-hover:scale-105 transition-transform duration-300">
-                ⏰ Timeline
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
-                Key events in the platform's development history
-              </p>
-              <div className="mt-3 text-xs text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Click to explore →
-              </div>
-            </div>
-          </Link>
-
           <Link href="/tools" className="group h-full cursor-pointer">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-purple-400 hover:shadow-lg hover:border-purple-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
               <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -79,13 +62,30 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/community" className="group h-full cursor-pointer">
+          <Link href="/blog" className="group h-full cursor-pointer">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-blue-400 hover:shadow-lg hover:border-blue-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
+              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-blue-400 text-sm">👆 Click</span>
+              </div>
+              <h3 className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2 group-hover:text-blue-700 group-hover:scale-105 transition-transform duration-300">
+                📝 Blog
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
+                Latest news, analysis and insights
+              </p>
+              <div className="mt-3 text-xs text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Click to explore →
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/wiki" className="group h-full cursor-pointer">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border-2 border-green-400 hover:shadow-lg hover:border-green-500 hover:-translate-y-1 transition-all duration-300 h-full flex flex-col retro-shadow hover:retro-shadow-lg relative overflow-hidden">
               <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <span className="text-green-400 text-sm">👆 Click</span>
               </div>
               <h3 className="text-lg font-semibold text-green-600 dark:text-green-400 mb-2 group-hover:text-green-700 group-hover:scale-105 transition-transform duration-300">
-                👥 Community
+                📖 Wiki
               </h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm flex-1 group-hover:text-gray-800 dark:group-hover:text-gray-100 transition-colors duration-300">
                 User artworks, community dynamics, and guides

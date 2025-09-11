@@ -3,14 +3,14 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "WPlace Community - Fandoms, Art Projects & Collaborative Groups",
+  title: "WPlace Wiki - Fandoms, Art Projects & Collaborative Groups",
   description: "Explore WPlace.live community dynamics, major fandom presence, collaborative projects, activism, and user-driven initiatives.",
   alternates: {
-    canonical: "https://wplacwe.live/community",
+    canonical: "https://wplacwe.live/wiki",
   },
 };
 
-export default function Community() {
+export default function Wiki() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 py-8">
@@ -18,10 +18,6 @@ export default function Community() {
           <div className="flex flex-wrap items-center gap-4 mb-4">
             <Link href="/" className="text-blue-600 hover:text-blue-800 font-medium">
               Home
-            </Link>
-            <span className="text-gray-400">•</span>
-            <Link href="/timeline" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-              Timeline
             </Link>
             <span className="text-gray-400">•</span>
             <Link href="/tools" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
@@ -32,8 +28,12 @@ export default function Community() {
               Colors Palette
             </Link>
             <span className="text-gray-400">•</span>
-            <Link href="/community" className="text-gray-900 dark:text-white font-medium">
-              Community
+            <Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
+              Blog
+            </Link>
+            <span className="text-gray-400">•</span>
+            <Link href="/wiki" className="text-gray-900 dark:text-white font-medium">
+              Wiki
             </Link>
             <span className="text-gray-400">•</span>
             <Link href="/archive" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
@@ -41,7 +41,7 @@ export default function Community() {
             </Link>
           </div>
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Community
+            Wiki
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
             User artworks, community dynamics, and guides

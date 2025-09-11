@@ -28,18 +28,18 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/timeline" className="text-gray-300 hover:text-orange-400 transition-colors">
-                  Timeline
-                </Link>
-              </li>
-              <li>
                 <Link href="/tools" className="text-gray-300 hover:text-purple-400 transition-colors">
                   Tools
                 </Link>
               </li>
               <li>
-                <Link href="/community" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Community
+                <Link href="/blog" className="text-gray-300 hover:text-green-400 transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/wiki" className="text-gray-300 hover:text-blue-400 transition-colors">
+                  Wiki
                 </Link>
               </li>
               <li>
